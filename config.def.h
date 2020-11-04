@@ -12,10 +12,26 @@ static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
 static const char col_cyan[]        = "#005577";
+
+static const char col_gruvbox_bg0[]	= "#282828";
+static const char col_gruvbox_bg1[] = "#3c3836";
+static const char col_gruvbox_bg2[] = "#504945";
+static const char col_gruvbox_bg3[] = "#665c54";
+static const char col_gruvbox_bg4[] = "#7c6f64";
+static const char col_gruvbox_fg[]		= "#ebdbb2";
+static const char col_gruvbox_orange[]	= "#d65d0e";
+static const char col_gruvbox_red[]		= "#cc241d";
+static const char col_gruvbox_green[]	= "#98971a";
+static const char col_gruvbox_yellow[]	= "#d79921";
+static const char col_gruvbox_blue[]	= "#458588";
+static const char col_gruvbox_purple[]	= "#b16286";
+static const char col_gruvbox_aqua[]	= "#689d6a";
+static const char col_gruvbox_gray[]	= "#a89984";
+
 static const char *colors[][3]      = {
-	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
+	/*               fg               bg                border   */
+    [SchemeNorm] = { col_gruvbox_bg3, col_gruvbox_bg0,  col_gruvbox_bg1 },
+    [SchemeSel] = { col_gruvbox_bg4,  col_gruvbox_aqua, col_gruvbox_orange },
 };
 
 /* tagging */
