@@ -32,6 +32,12 @@ static const char *colors[][3]      = {
 	/*               fg               bg                border   */
     [SchemeNorm] = { col_gruvbox_bg3, col_gruvbox_bg0,  col_gruvbox_bg1 },
     [SchemeSel] = { col_gruvbox_bg4,  col_gruvbox_aqua, col_gruvbox_orange },
+	
+	[SchemeStatus]  = { col_gray3, col_gray1,  "#000000"  }, // Statusbar right {text,background,not used but cannot be empty}
+	[SchemeTagsSel]  = { col_gray4, col_cyan,  "#000000"  }, // Tagbar left selected {text,background,not used but cannot be empty}
+    [SchemeTagsNorm]  = { col_gray3, col_gray1,  "#000000"  }, // Tagbar left unselected {text,background,not used but cannot be empty}
+    [SchemeInfoSel]  = { col_gray4, col_cyan,  "#000000"  }, // infobar middle  selected {text,background,not used but cannot be empty}
+    [SchemeInfoNorm]  = { col_gray3, col_gray1,  "#000000"  }, // infobar middle  unselected {text,background,not used but cannot be empty}
 };
 
 /* tagging */
